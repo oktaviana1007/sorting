@@ -47,6 +47,14 @@ void mergeSort(int data[],int x){
  } 
 } 
 
+void tampil(int a[],int x){
+ 
+ cout<<endl;
+ for(int i=0;i<x;i++){
+ cout<<a[i]<<" "; 
+ }
+ cout<<endl;
+}
 
 int main(){
 int n;
