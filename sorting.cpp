@@ -37,6 +37,16 @@ void bubble(int a[],int x){
 
 }
 
+void mergeSort(int data[],int x){ 
+ int a[x],b[x];
+ if(x=2){ 
+ if(data[0]>data[1]){ 
+  int p=data[0]; 
+  data[0]=data[1]; 
+  data[1]=p; 
+ } 
+} 
+
 
 int main(){
 int n;
