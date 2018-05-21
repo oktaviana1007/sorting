@@ -1,3 +1,11 @@
+/* 
+1717051007-Oktaviana
+1717051021-Brenda Natalia
+1717051033-Cahyani Ramadhani
+1717051045-Naomy Tiara Dewi
+Link : https://github.com/oktaviana1007/sorting/edit/master/sorting.cpp
+*/
+
 #include <iostream>
 using namespace std;
 
