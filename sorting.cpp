@@ -64,6 +64,11 @@ void mergeSort(int data[],int x){
     i=i+1; 
    }
 else{
+    data[k]=b[j]; 
+    j=j+1; 
+   } 
+  } 
+ } 
 }
 
 void tampil(int a[],int x){
@@ -78,9 +83,16 @@ void tampil(int a[],int x){
 int main(){
 int n;
 cin>>n;
+cout<<endl;
+int a[n];
+for(int i=0;i<n;i++){
+cin>>a[i];
+}
 selection(a,n);
 tampil(a,n);
 bubble(a,n);
+tampil(a,n);
+mergeSort(a,n);
 tampil(a,n);
 	
 return 0;
