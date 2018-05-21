@@ -46,6 +46,25 @@ void mergeSort(int data[],int x){
   data[1]=p; 
  } 
 } 
+ else if(x>2){ 
+  int m=(x/2); 
+  for(int i=0;i<=m-1;i++){ 
+   a[i]=data[i]; 
+  } 
+  for(int i=m;i<=x-1;i++){ 
+   b[i-m]=data[i]; 
+  } 
+  mergeSort(a,m); 
+  mergeSort(b-x,m); 
+  int i=0; 
+  int j=0; 
+  for(int k=0;k<=x-1;k++){ 
+   if(a[i]<=b[j]){ 
+    data[k]=a[i]; 
+    i=i+1; 
+   }
+else{
+}
 
 void tampil(int a[],int x){
  
